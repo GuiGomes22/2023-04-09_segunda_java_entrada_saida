@@ -14,6 +14,7 @@ public class SomaDoisNumeros{
         system.out.println("Digite o segundo operando")
         segundo.out = leiton.nextDouble();
         //processamento
+        resultado = primeiroOperando+segundoOperando;
 
         //saída
     }
