@@ -3,19 +3,20 @@ import java.util.Scanner;
 public class SomaDoisNumeros{
     public static void main(String [] args){
         //declaração de variáveis
-        Scanner leitor; = new Scanner(System.in);
+        Scanner leitor = new Scanner(System.in);
         double primeiroOperando;
         double segundoOperando;
         double resultado;
 
         //entrada
         System.out.println("Digite o primeiro operando");
-        primeiroOperando = leiton.nextDouble();
-        system.out.println("Digite o segundo operando")
-        segundo.out = leiton.nextDouble();
+        primeiroOperando = leitor.nextDouble();
+        System.out.println("Digite o segundo operando");
+        segundoOperando = leitor.nextDouble();
         //processamento
         resultado = primeiroOperando+segundoOperando;
 
         //saída
+        System.out.print(resultado);
     }
 }
